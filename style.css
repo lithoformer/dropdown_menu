@@ -25,7 +25,6 @@ body {
     cursor: pointer;
     max-width: 20%;
     max-height: 50%;
-    border-radius: 1rem;
 }
 
 .menuImg {
@@ -38,7 +37,8 @@ body {
 .list {
     visibility: hidden;
     list-style-type: none;
-    height: 20vh;
+    height: 30vh;
+    margin: 0rem 1rem;
 }
 
 li {
@@ -50,4 +50,8 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.listItem {
+    padding: 1rem;
 }

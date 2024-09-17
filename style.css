@@ -4,12 +4,16 @@
     font-family: 'Inria Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+    background-color: blueviolet;
+}
+
 .navBar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     background-color: purple;
 }
 
@@ -21,6 +25,7 @@
     cursor: pointer;
     max-width: 20%;
     max-height: 50%;
+    border-radius: 1rem;
 }
 
 .menuImg {
